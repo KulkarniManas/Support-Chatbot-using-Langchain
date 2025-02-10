@@ -1,0 +1,32 @@
+Learning Through Langgraph Chatbot : Developed a workflow, with external search tools [tavily_search and wikisearch and human_assistance]
+
+1) Create a basic graph, with a simple chatbot node, which queries the llm
+2) Create a StateGraph and add messages and other attributes for the graph state
+3) Use tools, explored langchain tools here! (tavily_search and wiki_search), and added them together in the array
+4) Call the llm using groq, and then bind the llm with the tools, with llm.bind_tools() function
+5) Most Importat : BaseToolNode : Saw how a tool node works, and then used the prebuilt ToolNode to get all the tools in one node
+6) Explored the tools_condition from langgraph.prebuilt, which is used to create a conditional edge from the llm calling node, to the tool node
+7) Create edges using the graph builder
+8) Create nodes using the graph builder
+9) Add memory checkpoint (add local memory) to the chatbot
+10) compile the graph with memory
+11) Stream the graph to check and run the workflow'
+12) Added an extra tool, with interrupt and Command from langgraph.types module, for human intervention in the Chatbot
+
+Docs : "https://langchain-ai.github.io/langgraph/tutorials/introduction/"
+
+
+Additonal Things I did : 
+
+Adding a prompt template to the llm
+
+
+Further Things to Learn : 
+
+1) Use local database for memory saving
+
+2) Create a medical chatbot, in such a manner
+
+3) Explore and create more workflows
+
+4) Integrate a chatbot for Skin Disease Classification
