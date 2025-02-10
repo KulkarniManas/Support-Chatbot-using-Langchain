@@ -1,0 +1,13 @@
+langgraph
+langchain
+langchain-community
+langchain-groq
+openai
+langchain-openai
+python-dotenv
+beautifulsoup4
+sentence_transformers
+streamlit
+ipykernel
+tavily-python
+wikipedia
